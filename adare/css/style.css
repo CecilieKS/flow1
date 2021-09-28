@@ -1,0 +1,71 @@
+html{
+    /**/
+    height:100%;
+}
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /*Billeder som ikke har nogen betydning for forståelsen af sitet ligges typisk i CSS'en. men det kan også ligges i html'en.*/
+    /*For at hente et billede i CSS skriv url(/img) så kan billedet vælges. virker billedet ikke kan man altid prøve at skrive ../img/filenavn.jpg*/
+    background-image:url(../img/background-adare-restaurant.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+h1{
+    font-size: 84px;
+
+}
+
+p{
+    font-size: 18px;
+
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-emphasis: circle;
+}
+header{
+    height: 118px;
+    text-align: center;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 40px;
+    text-align:center;
+    padding-top: 20px;
+
+}
+/*kun a tagget som ligger inde i nav. hvis man skriver nav, a styler man alle nav'er og alle a'er*/ 
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+main{
+    height: 400px;
+    text-align: center;
+    padding: 80px 240px 0px 240px;
+}
+footer{
+    background-color: rgb(71, 121, 71);
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+.maps{
+    padding-bottom: 100px;
+}
+.youtube{
+    padding-bottom: 100px;
+}
