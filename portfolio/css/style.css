@@ -1,0 +1,389 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.frontpage{
+    background-image: url(/img/buegang-bw.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-position: center;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.headerbox{
+    /*sticky navbar 2 øverste punkter*/
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: #c5dedbaf;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 7px 0px 0px 0px;
+    align-items: center;
+    z-index: 1;
+}
+.logo{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.navknap{
+    border: 1px solid #c5dedb;
+    border-radius: 10px;
+    padding: 11px 25px;
+    margin: 10px;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navknap:hover{
+    background-color: #c5dedb;
+}
+
+main{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+/*
+.profilpic1{
+    background-color: #ffffff;
+    display: flex;
+    margin: auto;
+}
+.circular--square{
+    border-radius: 50%;
+}
+*/
+
+.flagbox{
+    /*background-color: #c5dedbaf;*/
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    color:  #c5dedb;
+    margin: auto 0px 50px 0px;
+    padding: 20px 0px 20px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.flagbox i{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.flagbox h1{
+    font-size: 40px;
+}
+.flagbox p{
+    font-size: 20px;
+}
+
+/*
+.flagbox:hover{
+    background-color: #c5dedb;
+}
+*/
+
+.services{
+    display: flex;
+    /*background-color: #c5dedbaf;*/
+    width: 1024px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 50px auto;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:  #c5dedb
+}
+.cards{
+    min-height: 300px;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.card{
+    display: flex;
+    /*vandret*/
+    justify-content: center;
+    /*lodret*/
+    align-items: center;
+    min-height: 300px;
+    width: 30%;
+    border-radius: 20px;
+
+}
+.card-p{
+    color: black;
+    text-decoration: none;
+    /*background-color: #c5dedbaf;*/
+    background-color: #ffffff;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+
+}
+
+.card1{
+    background-image: url("../img/html.jpg");
+    background-size: cover;
+    background-color: #ffffff; 
+    box-shadow: 20px 20px 20px rgb(10, 10, 10);
+}
+.card2{
+    background-image: url("../img/bi-opgave_me.jpg");
+    background-size: cover;
+    background-color: #ffffff; 
+    box-shadow: 20px 20px 20px rgb(10, 10, 10);
+
+}
+.card3{
+    background-image: url("../img/sketch-tusch.jpg");
+    background-size: cover;
+    background-color: #ffffff;  
+    box-shadow: 20px 20px 20px rgb(10, 10, 10);
+
+}
+
+
+
+/*Side ABOUT*/
+
+.main-about{
+    margin-top: 70px;
+}
+
+.cards-about{
+    width: 1024px;
+    min-height: 450px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.about-me{
+    background-color: #c5dedb;
+    width: 72%;
+    justify-content: center;
+    align-items: center;
+
+}
+.profilpic{
+    width: 28%;
+    background-image: url("../img/profilpic-about-small.jpg");
+    background-size: contain;
+
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;  
+}
+.about-me p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+}
+
+
+/*Side portfolio*/
+.headerbox2{    
+    margin-top: 403px;
+    background-color: #c5dedbaf;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /*z-index bruges til at placere elementerne i forhold til hinanenden i lag*/
+}
+
+.headerbox2 nav{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    padding-top: 52px;
+    padding-bottom: 83px;
+}
+
+.navknap2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+}
+.navknap2:hover{
+    background-color: #c5dedb;
+    text-decoration-line: underline;
+}
+
+.port_main{
+    margin-top: 0px;
+    margin-left: 150px;
+}
+/*kassen rundt om billedet*/
+.port_main div{ 
+    margin: 1em;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+/*billedet*/
+.port_main img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*Side CONTACT*/
+
+.main-contact{
+    margin-top: 35px;
+}
+
+.contact-formular{
+    width: 500px;
+    border: 1px solid #919292;
+    margin-bottom: 25px;
+    /*1em er bare en lille afstand - man kunne også have skrevet 1px eller 2px*/
+    padding: 1em;
+    box-shadow: 5px 5px 5px grey;
+}
+
+h4{
+    margin-bottom: 50px;
+}
+
+input[type="text"], select, textarea{
+    width: 450px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #e0e0e0;
+}
+
+input[type="submit"]{
+    background-color: #54e4d3;
+    width: 470px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+   
+}
+
+
+/*Photoshop*/
+
+
+.port_main_ps{
+    margin-top: 0px;
+}
+
+.ps_images{
+    width: 750px;
+    min-height: 400px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.ps1{
+    display:flex;
+    width: 40%;
+    background-image: url(/img/bi-org.jpg);
+    background-size: contain;
+}
+.ps2{
+    display:flex;
+    width: 40%;
+    background-image: url(/img/bi-opgave_me.jpg);
+    background-size: contain;
+}
+
+/*XD*/
+.port_main_xd{
+    margin-top: 0px;
+}
+
+.cards-xd{
+    width: 900px;
+    min-height: 450px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.xd-box1{
+    display: flex;
+    width: 40%;
+    /*background-color: blueviolet;*/
+    border: 1px solid #c5dedb;
+    padding: 1em;
+    flex-direction: column;
+    
+}
+
+.xd-box2{
+    display: flex;
+    width: 60%;
+    background-image: url(/img/xd.png);
+    background-size: contain;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #ffffff;
+    height: 50px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    text-align: center;
+    color: #c5dedb;
+}
+
+.copyright{
+    width: 85%;
+    text-align: center;
+}
+.copyright p{
+    margin-right: -218px;
+}
+.social-icons{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    margin-top: -7px;
+}
+
+.social-icons img{
+    width: 30px;
+}

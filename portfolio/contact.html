@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="headerbox">
+                <div class="logo">
+                    <a href="index.html"><img src="/img/logo-kd0.png" alt="logo C Kring" width="80px;"></a>
+                </div>
+                <div id="navbar">
+                    <nav>
+                        <a href="about.html" class="navknap">ABOUT</a>
+                        <a href="portfolio.html" class="navknap">PORTFOLIO</a>
+                        <a href="contact.html" class="navknap">CONTACT</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-contact">
+            <div class="contact-formular">
+                <h4>CONTACT ME</h4>
+                <form action="send-info.php">
+                    <p>FULL NAME</p>
+                    <!--istedet for type som i CSS stiles med [] (option 8)kunne man også have kaldt det for en class="text" og bare kaldt på den med .text i CSS-->
+                    <input type="text" name="first-name" required>
+                    <p>E-MAIL</p>
+                    <input type="text" name="e-mail" required>
+                    <p>MESSAGE</p>
+                    <textarea cols="40" rows="8" name="comments"></textarea>
+                    <br>
+                    <input type="submit" value="Send Afsted">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="copyright">
+                <p>
+                    Copyright&copy; 2021 Website by Cecilie Kring
+                    <br> CPH Business student
+                </p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="/img/instagram.png" alt="instagram icon"></a>
+                <a href="#"><img src="/img/linkedin.png" alt="linkedin icon"></a>
+                <a href="#"><img src="/img/messenger.png" alt="messenger icon"></a>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
